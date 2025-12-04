@@ -22,10 +22,10 @@ namespace MyWebApiProject.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] SignIn user1)
+        public async Task<IActionResult> Post([FromBody] SignIn user1)
         {
              User? u = new();
-             u = _service.SignIn(user1);
+             u =  await _service.SignIn(user1);
             if (u == null)
                 return BadRequest();
             return Ok(u);

@@ -6,40 +6,24 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Entity;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace Repository
 {
     public class UpdateRepository : IUpdateRepository
     {
-        public bool Update(User user)
+        WebApiShopContext _webApiShopContext;
+        public UpdateRepository(WebApiShopContext webApiShopContext)
         {
-            string textToReplace = string.Empty;
-            using (StreamReader reader = System.IO.File.OpenText("C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\DataFile.txt"))
-            {
-                string? currentUserInFile;
-                while ((currentUserInFile = reader.ReadLine()) != null)
-                {
-                    if (string.IsNullOrWhiteSpace(currentUserInFile))
-                        continue;
-                    if (!currentUserInFile.Trim().StartsWith("{"))
-                        continue;
+            _webApiShopContext = webApiShopContext;
+        }
 
-                    User? user1 = JsonSerializer.Deserialize<User>(currentUserInFile);
-                    if (user.UserId == user1?.UserId)
-                        textToReplace = currentUserInFile;
-                }
-            }
-
-            if (textToReplace != string.Empty)
-            {
-                string text = System.IO.File.ReadAllText("C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\DataFile.txt");
-
-                text = text.Replace(textToReplace, JsonSerializer.Serialize(user));
-                System.IO.File.WriteAllText("C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\DataFile.txt", text);
-                return true;
-            }
-            return false;
+        public async Task<bool> Update(User user)
+        {
+            _webApiShopContext.Users.Update(user);
+             await _webApiShopContext.SaveChangesAsync();
+            return true;
         }
     }
 }

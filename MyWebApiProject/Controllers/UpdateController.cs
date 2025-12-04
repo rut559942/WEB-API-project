@@ -18,9 +18,9 @@ namespace MyWebApiProject.Controllers
             _service = service;
         }
         [HttpPut]
-        public IActionResult Put([FromBody] User user)
+        public async Task<IActionResult> Put([FromBody] User user)
         {
-           bool? u = _service.Update(user);
+           bool? u = await _service.Update(user);
             if (u == null)
                 return BadRequest();
             if (u==true)

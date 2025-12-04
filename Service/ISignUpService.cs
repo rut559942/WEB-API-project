@@ -1,10 +1,12 @@
 ﻿using Entity;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace Service
 {
     public interface ISignUpService
     {
-        User? SignUp(User user);
+        Task<User?> SignUp(User user);
         int StrongPassword(User user);
     }
 }

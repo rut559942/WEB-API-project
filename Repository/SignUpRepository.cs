@@ -6,19 +6,24 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Entity;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace Repository
 {
     public class SignUpRepository : ISignUpRepository
     {
-        public User? SignUp(User user)
-        {
 
-            int numberOfUsers = System.IO.File.ReadLines("C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\DataFile.txt").Count();
-            user.UserId = numberOfUsers + 1;
-            string userJson = JsonSerializer.Serialize(user);
-            System.IO.File.AppendAllText("C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\DataFile.txt", userJson + Environment.NewLine);
+        WebApiShopContext _webApiShopContext;
+        public SignUpRepository(WebApiShopContext webApiShopContext)
+        {
+            _webApiShopContext = webApiShopContext;
+        }
+
+        public async Task<User?> SignUp(User user)
+        {
+           await _webApiShopContext.Users.AddAsync(user);
+            await _webApiShopContext.SaveChangesAsync();
             return user;
 
 

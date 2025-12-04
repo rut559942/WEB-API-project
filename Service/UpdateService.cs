@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Repository;
 using Entity;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace Service
 {
@@ -16,12 +18,12 @@ namespace Service
         {
             _repo = repo;
         }
-        public bool? Update(User user)
+        public async Task<bool?> Update(User user)
         {
             var result = Zxcvbn.Core.EvaluatePassword(user.Password);
             if (result.Score < 3)
                 return null;
-            return _repo.Update(user);
+            return await _repo.Update(user);
         }
     }
 }

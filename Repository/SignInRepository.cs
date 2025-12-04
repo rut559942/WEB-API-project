@@ -5,29 +5,24 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Entity;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace Repository
 {
     public class SignInRepository : ISignInRepository
     {
-        public User? SignIn(SignIn user1)
+        WebApiShopContext _webApiShopContext;
+        public SignInRepository(WebApiShopContext webApiShopContext)
         {
-            using (StreamReader reader = System.IO.File.OpenText("C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\DataFile.txt"))
-            {
-                string? currentUserInFile;
-                while ((currentUserInFile = reader.ReadLine()) != null)
-                {
-                    if (string.IsNullOrWhiteSpace(currentUserInFile))
-                        continue;
-                    if (!currentUserInFile.Trim().StartsWith("{"))
-                        continue;
-                    User? user = JsonSerializer.Deserialize<User>(currentUserInFile);
-                    if (user?.UserName == user1.UserName1 && user?.Password == user1.Password1)
-                        return user;
-                }
-            }
-            return null;
+            _webApiShopContext = webApiShopContext;
+        }
+
+        public async Task<User?> SignIn(SignIn user1)
+        {
+            User? user = await _webApiShopContext.Users
+                .FirstOrDefaultAsync(u => u.UserName == user1.UserName1 && u.Password == user1.Password1);
+            return user;
         }
     }
 }

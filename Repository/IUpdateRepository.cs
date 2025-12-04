@@ -1,9 +1,8 @@
 ﻿using Entity;
-
 namespace Repository
 {
     public interface IUpdateRepository
     {
-        bool Update(User user);
+       Task<bool> Update(User user);
     }
 }

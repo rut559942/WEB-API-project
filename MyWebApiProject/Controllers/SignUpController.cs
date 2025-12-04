@@ -21,11 +21,10 @@ namespace MyProject.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] User user)
+        public async Task<IActionResult> Post([FromBody] User user)
         {
 
-            User? u = new();
-            u = _service.SignUp(user);
+            User? u  = await  _service.SignUp(user);
             if (u == null)
                 return BadRequest();
             return CreatedAtAction(nameof(Post), new { id = u?.UserId }, u);

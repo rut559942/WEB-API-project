@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Repository;
 using Entity;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace Service
 {
@@ -16,10 +18,9 @@ namespace Service
         {
             _repo = repo;
         }
-        public SignInRepository r = new SignInRepository();
-        public User? SignIn(SignIn user)
+        public async Task<User?> SignIn(SignIn user)
         {
-            return  _repo.SignIn(user);
+            return await _repo.SignIn(user);
         }
 
     }

@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Repository;
 using Entity;
 using Zxcvbn;
+using Microsoft.EntityFrameworkCore;
+
 
 
 namespace Service
@@ -18,14 +20,14 @@ namespace Service
         {
             _repo = repo;
         }
-        public User? SignUp(User user)
+        public async Task<User?> SignUp(User user)
         {
             if (user.FirstName != "" && user.LastName != "" && user.Password != "" && user.UserName != "")
             {
                 var result = Zxcvbn.Core.EvaluatePassword(user.Password);
                 if (result.Score < 3)
                     return null;
-                return _repo.SignUp(user);
+                return await _repo.SignUp(user);
             }
             return null;
         }

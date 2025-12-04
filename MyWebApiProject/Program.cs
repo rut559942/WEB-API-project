@@ -1,5 +1,7 @@
-﻿using Repository;
+﻿using Microsoft.EntityFrameworkCore;
+using Repository;
 using Service;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,8 @@ builder.Services.AddScoped<IUpdateRepository, UpdateRepository>();
 builder.Services.AddScoped<ISignInService, SignInService>();
 builder.Services.AddScoped<IUpdateService, UpdateService>();
 builder.Services.AddScoped<ISignUpService, SignUpService>();
+builder.Services.AddDbContext<WebApiShopContext>(options =>
+    options.UseSqlServer("Data Source=localhost\\SQLEXPRESS;Initial Catalog=WEB-API_SHOP;Integrated Security=True;Trust Server Certificate=True"));
 
 
 builder.Services.AddControllers();
