@@ -21,7 +21,7 @@
       "launchBrowser": true,
       "launchUrl": "login.html",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "home"
       }
     }
   },

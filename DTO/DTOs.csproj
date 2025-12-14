@@ -7,13 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="zxcvbn-core" Version="7.0.92" />
+    <PackageReference Include="AutoMapper" Version="16.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DTO\DTOs.csproj" />
     <ProjectReference Include="..\Entity\Entity.csproj" />
-    <ProjectReference Include="..\Repository\Repository.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Repository;
 using Service;
+using AutoMapper;
+using DTOs;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,13 +14,28 @@ builder.Services.AddScoped<IUpdateRepository, UpdateRepository>();
 builder.Services.AddScoped<ISignInService, SignInService>();
 builder.Services.AddScoped<IUpdateService, UpdateService>();
 builder.Services.AddScoped<ISignUpService, SignUpService>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddDbContext<WebApiShopContext>(options =>
-    options.UseSqlServer("Data Source=localhost\\SQLEXPRESS;Initial Catalog=WEB-API_SHOP;Integrated Security=True;Trust Server Certificate=True"));
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection")
+    ));
+
+
 
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddAutoMapper(cfg =>
+{
+    cfg.AddProfile<MappingProfile>();
+});
+
 
 
 var app = builder.Build();
