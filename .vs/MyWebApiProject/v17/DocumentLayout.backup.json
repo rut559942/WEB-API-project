@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|c:\\users\\aliza.twito\\documents\\ruti\\web\\mywebapiproject\\mywebapiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|solutionrelative:mywebapiproject\\mywebapiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|c:\\users\\aliza.twito\\documents\\ruti\\web\\mywebapiproject\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|solutionrelative:mywebapiproject\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC74B607-A71A-402C-9C5D-EABE04FA5664}|Repository\\Repository.csproj|c:\\users\\aliza.twito\\documents\\ruti\\web\\repository\\webapishopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC74B607-A71A-402C-9C5D-EABE04FA5664}|Repository\\Repository.csproj|solutionrelative:repository\\webapishopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|c:\\users\\aliza.twito\\documents\\ruti\\web\\mywebapiproject\\controllers\\signincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|solutionrelative:mywebapiproject\\controllers\\signincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|c:\\users\\aliza.twito\\documents\\ruti\\web\\mywebapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|solutionrelative:mywebapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|c:\\users\\aliza.twito\\documents\\ruti\\web\\mywebapiproject\\mywebapiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|solutionrelative:mywebapiproject\\mywebapiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|c:\\users\\aliza.twito\\documents\\ruti\\web\\mywebapiproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|solutionrelative:mywebapiproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|c:\\users\\aliza.twito\\documents\\ruti\\web\\mywebapiproject\\appsettings.home.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|solutionrelative:mywebapiproject\\appsettings.home.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|c:\\users\\aliza.twito\\documents\\ruti\\web\\mywebapiproject\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|solutionrelative:mywebapiproject\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|c:\\users\\aliza.twito\\documents\\ruti\\web\\mywebapiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|solutionrelative:mywebapiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|c:\\users\\aliza.twito\\documents\\ruti\\web\\mywebapiproject\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BC74B607-A71A-402C-9C5D-EABE04FA5664}|Repository\\Repository.csproj|c:\\users\\aliza.twito\\documents\\ruti\\web\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC74B607-A71A-402C-9C5D-EABE04FA5664}|Repository\\Repository.csproj|solutionrelative:repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|c:\\users\\aliza.twito\\documents\\ruti\\web\\mywebapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32DE0961-F0F4-4D90-A4E5-E146B0964F5C}|MyWebApiProject\\MyWebApiProject.csproj|solutionrelative:mywebapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FF440E5-D434-491B-98DD-80BEC7DAC1E5}|Service\\Service.csproj|c:\\users\\aliza.twito\\documents\\ruti\\web\\service\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,15 +89,56 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WebApiShopContext.cs",
-              "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\Repository\\WebApiShopContext.cs",
-              "RelativeDocumentMoniker": "Repository\\WebApiShopContext.cs",
-              "ToolTip": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\Repository\\WebApiShopContext.cs",
-              "RelativeToolTip": "Repository\\WebApiShopContext.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAuwIEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "appsettings.home.json",
+              "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\appsettings.home.json",
+              "RelativeDocumentMoniker": "MyWebApiProject\\appsettings.home.json",
+              "ToolTip": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\appsettings.home.json",
+              "RelativeToolTip": "MyWebApiProject\\appsettings.home.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-14T22:57:22.721Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\libman.json",
+              "RelativeDocumentMoniker": "MyWebApiProject\\libman.json",
+              "ToolTip": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\libman.json",
+              "RelativeToolTip": "MyWebApiProject\\libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-14T23:03:04.802Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\Program.cs",
+              "RelativeDocumentMoniker": "MyWebApiProject\\Program.cs",
+              "ToolTip": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\Program.cs",
+              "RelativeToolTip": "MyWebApiProject\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAADQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T22:21:36.014Z",
+              "WhenOpened": "2025-12-13T21:29:04.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NLog.config",
+              "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\NLog.config",
+              "RelativeDocumentMoniker": "MyWebApiProject\\NLog.config",
+              "ToolTip": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\NLog.config",
+              "RelativeToolTip": "MyWebApiProject\\NLog.config",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-12-15T07:52:21.752Z",
               "EditorCaption": ""
             },
             {
@@ -90,20 +151,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MyWebApiProject.csproj",
+              "DocumentIndex": 1,
+              "Title": "SignInController.cs",
+              "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\Controllers\\SignInController.cs",
+              "RelativeDocumentMoniker": "MyWebApiProject\\Controllers\\SignInController.cs",
+              "ToolTip": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\Controllers\\SignInController.cs",
+              "RelativeToolTip": "MyWebApiProject\\Controllers\\SignInController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwCoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T08:37:47.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyWebApiProject",
               "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\MyWebApiProject.csproj",
               "RelativeDocumentMoniker": "MyWebApiProject\\MyWebApiProject.csproj",
               "ToolTip": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\MyWebApiProject.csproj",
               "RelativeToolTip": "MyWebApiProject\\MyWebApiProject.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-13T21:29:04.716Z",
+              "WhenOpened": "2025-12-14T22:56:51.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MyWebApiProject\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\appsettings.Development.json",
+              "RelativeToolTip": "MyWebApiProject\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-14T22:47:45.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\appsettings.json",
+              "RelativeDocumentMoniker": "MyWebApiProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\appsettings.json",
+              "RelativeToolTip": "MyWebApiProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-14T22:41:31.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\Service\\ProductService.cs",
               "RelativeDocumentMoniker": "Service\\ProductService.cs",
@@ -116,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "MyWebApiProject\\Controllers\\ProductsController.cs",
@@ -129,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\Repository\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IProductRepository.cs",
@@ -142,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\Repository\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ProductRepository.cs",
@@ -155,20 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\Program.cs",
-              "RelativeDocumentMoniker": "MyWebApiProject\\Program.cs",
-              "ToolTip": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\MyWebApiProject\\Program.cs",
-              "RelativeToolTip": "MyWebApiProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T21:29:04.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\Service\\IProductService.cs",
               "RelativeDocumentMoniker": "Service\\IProductService.cs",
@@ -181,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\DTO\\MappingProfile.cs",
               "RelativeDocumentMoniker": "DTO\\MappingProfile.cs",
@@ -194,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\Entity\\Category.cs",
               "RelativeDocumentMoniker": "Entity\\Category.cs",
@@ -207,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Service",
               "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\Service\\Service.csproj",
               "RelativeDocumentMoniker": "Service\\Service.csproj",
@@ -220,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\DTO\\ProductDto.cs",
               "RelativeDocumentMoniker": "DTO\\ProductDto.cs",
@@ -233,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "tu4ktgd3..cs",
               "DocumentMoniker": "C:\\Users\\aliza.twito\\AppData\\Local\\Temp\\tu4ktgd3..cs",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\tu4ktgd3..cs",
@@ -246,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "DTOs.csproj",
               "DocumentMoniker": "C:\\Users\\aliza.twito\\Documents\\ruti\\WEB\\DTO\\DTOs.csproj",
               "RelativeDocumentMoniker": "DTO\\DTOs.csproj",

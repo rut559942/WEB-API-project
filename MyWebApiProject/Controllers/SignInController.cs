@@ -19,12 +19,13 @@ namespace MyWebApiProject.Controllers
         public SignInController(ISignInService service)
         {
             _service = service;
+           
         }
 
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] SignIn user1)
         {
-             User? u = new();
+            User? u = new();
              u =  await _service.SignIn(user1);
             if (u == null)
                 return BadRequest();

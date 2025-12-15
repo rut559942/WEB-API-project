@@ -3,9 +3,13 @@ using Repository;
 using Service;
 using AutoMapper;
 using DTOs;
+using NLog;
+using NLog.Web;
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+
 
 // Add services to the container.
 builder.Services.AddScoped<ISignInRepository, SignInRepository>();
@@ -25,9 +29,12 @@ builder.Services.AddDbContext<WebApiShopContext>(options =>
         builder.Configuration.GetConnectionString("DefaultConnection")
     ));
 
+builder.Logging.ClearProviders();
+builder.Host.UseNLog();
 
 
-
+var logger = LogManager.GetCurrentClassLogger();
+logger.Info("Application started (.NET 9)");
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
